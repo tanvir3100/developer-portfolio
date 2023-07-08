@@ -5,20 +5,20 @@ body{
 .text-orange{
     color: #FD6E0A;
 }
-.btn-primary{
+.btn-primary {
     border-radius: 6px;
     background-color: #FD6E0A;
     width: 100px;
     height: 47px;
     border: 0;
-    color: white;
-
-}
+    color:white;
+}  
 /* nav related styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title {
     color: #181818;
@@ -37,4 +37,17 @@ nav li{
 nav a {
     text-decoration: none;
     color: var(--dark-02, #474747);
+}
+/* header related styles */
+.header-class{
+    background-color: #FFF8F3;;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .develo-img {
+    width: 585;
+    height: 676;
 }
