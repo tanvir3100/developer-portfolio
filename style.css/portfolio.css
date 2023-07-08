@@ -1,10 +1,40 @@
 /* common shared styles */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
 }
+.text-orange{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 6px;
+    background-color: #FD6E0A;
+    width: 100px;
+    height: 47px;
+    border: 0;
+    color: white;
 
+}
 /* nav related styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--dark-02, #474747);
 }
