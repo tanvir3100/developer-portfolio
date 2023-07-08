@@ -13,6 +13,17 @@ body{
     border: 0;
     color:white;
 }  
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.description-about{
+    color:#757575;
+    text-align: center;
+    font-size: 18px; 
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -49,6 +60,11 @@ nav a {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+
 }
 .banner .develo-img {
     width: 585;
@@ -64,8 +80,36 @@ nav a {
     font-size: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-weight: 700;
 }
 .para-banner{
     font-size: 20px;
     padding-top: 0px;
+}
+/* main section style start here */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about sections style start here  */
+.about{
+    margin: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin:130px 0;
+    padding: 131px;
+
+
+}
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
